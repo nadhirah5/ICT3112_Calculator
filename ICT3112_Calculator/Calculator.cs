@@ -1,4 +1,6 @@
-﻿public class Calculator
+﻿using ICT3112_Calculator;
+
+public class Calculator
 {
     public Calculator() { }
 
@@ -50,10 +52,10 @@
                 result = CalculateExpectedFailures(num1, num2, num3);
                 break;
             case "basic_fi":  // Basic Musa Failure Intensity
-                result = CalculateBasicFailureIntensity(num1,num2, num3); // num1 = total failures, num3 = operational time
+                result = CalculateBasicFailureIntensity(num1, num2, num3); // num1 = total failures, num3 = operational time
                 break;
             case "basic_ef":  // Basic Musa Expected Failures
-                result = CalculateBasicExpectedFailures(num1,num2, num3); // num1 = initial failure intensity, num3 = operational time
+                result = CalculateBasicExpectedFailures(num1, num2, num3); // num1 = initial failure intensity, num3 = operational time
                 break;
             case "ssi":  // Shipped Source Instructions (SSI)
                 result = CalculateSSI(num1, num2, num3); // num1 = current SSI, num2 = new KLOC, num3 = % changed/deleted
@@ -278,6 +280,44 @@
         double num4 = Multiply(num3, num2);
         return Divide(num1, num4);
     }
+
+    // lab4 v1
+
+    //public double GenMagicNum(double input)
+    //{
+    //    double result = 0;
+    //    int choice = Convert.ToInt16(input);
+    //    //Dependency------------------------------
+    //    ICT3112_Calculator.FileReader getTheMagic = new ICT3112_Calculator.FileReader();
+    //    //----------------------------------------
+    //    string[] magicStrings = getTheMagic.Read("MagicNumbers.txt");
+    //    if ((choice >= 0) && (choice < magicStrings.Length))
+    //    {
+    //        result = Convert.ToDouble(magicStrings[choice]);
+    //    }
+    //    result = (result > 0) ? (2 * result) : (-2 * result);
+    //    return result;
+    //}
+
+
+    //lab4 v2
+    public double GenMagicNum(double input, IFileReader fileReader) // Accept IFileReader as a parameter
+    {
+        double result = 0;
+        int choice = Convert.ToInt16(input);
+
+        // Use the injected fileReader instead of creating a new FileReader instance
+        string[] magicStrings = fileReader.Read("MagicNumbers.txt");
+
+        if ((choice >= 0) && (choice < magicStrings.Length))
+        {
+            result = Convert.ToDouble(magicStrings[choice]);
+        }
+
+        result = (result > 0) ? (2 * result) : (-2 * result);
+        return result;
+    }
+
 }
 
 

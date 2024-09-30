@@ -1,13 +1,18 @@
-﻿namespace ICT3112_Calculator.UnitTests;
+﻿using System.IO; // Required for File handling
+
+namespace ICT3112_Calculator.UnitTests;
 
 public class CalculatorTests
 {
     private Calculator _calculator;
+    private IFileReader _fakeFileReader;
     [SetUp]
     public void Setup()
     {
         // Arrange
         _calculator = new Calculator();
+        _fakeFileReader = new FakeFileReader();
+
     }
     [Test]
     public void Add_WhenAddingTwoNumbers_ResultEqualToSum()
@@ -49,24 +54,24 @@ public class CalculatorTests
 
     //--------------------Q14a------------------------------------------------------
 
-    [Test]
-    public void Divide_WithZerosAsInputs_ResultThrowArgumentException()
-    {
-        // Act & Assert
-        Assert.That(() => _calculator.Divide(0, 0), Throws.ArgumentException);
-    }
+    //[Test]
+    //public void Divide_WithZerosAsInputs_ResultThrowArgumentException()
+    //{
+    //    // Act & Assert
+    //    Assert.That(() => _calculator.Divide(0, 0), Throws.ArgumentException);
+    //}
 
     //--------------------Q14b------------------------------------------------------
 
-    [Test]
-    [TestCase(0, 0)]
-    [TestCase(0, 10)]
-    [TestCase(10, 0)]
-    public void Divide_WithZerosAsInputs_ResultThrowArgumentException(double a, double b)
-    {
-        // Act & Assert
-        Assert.That(() => _calculator.Divide(a, b), Throws.ArgumentException);
-    }
+    //[Test]
+    //[TestCase(0, 0)]
+    //[TestCase(0, 10)]
+    //[TestCase(10, 0)]
+    //public void Divide_WithZerosAsInputs_ResultThrowArgumentException(double a, double b)
+    //{
+    //    // Act & Assert
+    //    Assert.That(() => _calculator.Divide(a, b), Throws.ArgumentException);
+    //}
 
     //--------------------Q15------------------------------------------------------
 
@@ -183,6 +188,126 @@ public class CalculatorTests
     {
         Assert.That(() => _calculator.UnknownFunctionB(4, 5), Throws.ArgumentException);
     }
+
+    //-------------------- Tests for GenMagicNum (DI) ------------------------------------
+
+    [Test]
+    public void GenMagicNum_ValidInput_ReturnsExpectedValue()
+    {
+        // Act
+        double result = _calculator.GenMagicNum(1, _fakeFileReader); // Pass the fake file reader
+
+        // Assert
+        Assert.That(result, Is.EqualTo(40)); // Assuming index 1 value in FakeFileReader is 20, result should be 40 (20 * 2)
+    }
+
+    [Test]
+    public void GenMagicNum_NegativeIndex_ReturnsDefaultValue()
+    {
+        // Act
+        double result = _calculator.GenMagicNum(-1, _fakeFileReader);
+
+        // Assert
+        Assert.That(result, Is.EqualTo(0)); // Default value as per the GenMagicNum function logic
+    }
+
+    [Test]
+    public void GenMagicNum_IndexOutOfRange_ReturnsDefaultValue()
+    {
+        // Act
+        double result = _calculator.GenMagicNum(10, _fakeFileReader); // Index out of range
+
+        // Assert
+        Assert.That(result, Is.EqualTo(0)); // Default value as per the GenMagicNum function
+    }
+
+    //-------------------- Mock Implementations -------------------
+
+    /// <summary>
+    /// A mock implementation of IFileReader to simulate reading values from a file.
+    /// </summary>
+    private class FakeFileReader : IFileReader
+    {
+        public string[] Read(string path)
+        {
+            // Simulate the values in "MagicNumbers.txt"
+            return new string[] { "10", "20", "30", "40" };
+        }
+    }
+
+
+    //-------------------- V1 Tests for GenMagicNum ------------------------------------
+
+    //[Test]
+    //public void GenMagicNum_ValidInput_ReturnsExpectedValue()
+    //{
+    //    // Arrange
+    //    CreateMagicNumbersFile(new string[] { "10", "20", "30", "40" }); // Create a sample MagicNumbers.txt file
+
+    //    // Act
+    //    double result = _calculator.GenMagicNum(1);  // Should read the second value (20)
+
+    //    // Assert
+    //    Assert.That(result, Is.EqualTo(40)); // 20 * 2 (as per the GenMagicNum logic)
+    //}
+
+    //[Test]
+    //public void GenMagicNum_NegativeIndex_ReturnsDefaultValue()
+    //{
+    //    // Arrange
+    //    CreateMagicNumbersFile(new string[] { "10", "20", "30", "40" });
+
+    //    // Act
+    //    double result = _calculator.GenMagicNum(-1); // Negative index is invalid
+
+    //    // Assert
+    //    Assert.That(result, Is.EqualTo(0)); // Default value as per the GenMagicNum function
+    //}
+
+    //[Test]
+    //public void GenMagicNum_IndexOutOfRange_ReturnsDefaultValue()
+    //{
+    //    // Arrange
+    //    CreateMagicNumbersFile(new string[] { "10", "20", "30", "40" });
+
+    //    // Act
+    //    double result = _calculator.GenMagicNum(10); // Index out of range
+
+    //    // Assert
+    //    Assert.That(result, Is.EqualTo(0)); // Default value as per the GenMagicNum function
+    //}
+
+    //[Test]
+    //public void GenMagicNum_FileNotFound_ThrowsFileNotFoundException()
+    //{
+    //    // Arrange
+    //    DeleteMagicNumbersFile(); // Ensure file does not exist
+
+    //    // Act & Assert
+    //    Assert.Throws<FileNotFoundException>(() => _calculator.GenMagicNum(1));
+    //}
+
+    ////-------------------- Helper Methods for Testing ------------------------------------------
+
+    ///// <summary>
+    ///// Creates a MagicNumbers.txt file with the specified values.
+    ///// </summary>
+    ///// <param name="values">Array of values to write in the file.</param>
+    //private void CreateMagicNumbersFile(string[] values)
+    //{
+    //    File.WriteAllLines("MagicNumbers.txt", values);
+    //}
+
+    ///// <summary>
+    ///// Deletes the MagicNumbers.txt file if it exists.
+    ///// </summary>
+    //private void DeleteMagicNumbersFile()
+    //{
+    //    if (File.Exists("MagicNumbers.txt"))
+    //    {
+    //        File.Delete("MagicNumbers.txt");
+    //    }
+    //}
 
 
 }

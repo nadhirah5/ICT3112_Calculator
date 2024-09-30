@@ -3,6 +3,12 @@
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/bin/Debug/net6.0/Reqnroll.NUnit.ReqnrollPlugin.dll
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/bin/Debug/net6.0/ICT3112_Calculator.deps.json
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/bin/Debug/net6.0/ICT3112_Calculator.runtimeconfig.json
+/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/bin/Debug/net6.0/NUnit3.TestAdapter.dll
+/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/bin/Debug/net6.0/NUnit3.TestAdapter.pdb
+/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/bin/Debug/net6.0/nunit.engine.dll
+/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/bin/Debug/net6.0/nunit.engine.api.dll
+/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/bin/Debug/net6.0/nunit.engine.core.dll
+/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/bin/Debug/net6.0/testcentric.engine.metadata.dll
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/bin/Debug/net6.0/ICT3112_Calculator.UnitTests.deps.json
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/bin/Debug/net6.0/ICT3112_Calculator.UnitTests.runtimeconfig.json
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/bin/Debug/net6.0/ICT3112_Calculator.UnitTests.dll
@@ -22,6 +28,7 @@
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/bin/Debug/net6.0/testhost.dll
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/bin/Debug/net6.0/Newtonsoft.Json.dll
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/bin/Debug/net6.0/nunit.framework.dll
+/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/bin/Debug/net6.0/nunit.framework.legacy.dll
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/bin/Debug/net6.0/Reqnroll.dll
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/bin/Debug/net6.0/SpecFlow.Internal.Json.dll
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
@@ -102,6 +109,7 @@
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/obj/Debug/net6.0/ICT3112_Calculator.UnitTests.AssemblyInfoInputs.cache
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/obj/Debug/net6.0/ICT3112_Calculator.UnitTests.AssemblyInfo.cs
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/obj/Debug/net6.0/ICT3112_Calculator.UnitTests.csproj.CoreCompileInputs.cache
+/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/obj/Debug/net6.0/ICT3112_Calculator.UnitTests.sourcelink.json
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/obj/Debug/net6.0/ICT3112_.88AF738A.Up2Date
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/obj/Debug/net6.0/ICT3112_Calculator.UnitTests.dll
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/obj/Debug/net6.0/refint/ICT3112_Calculator.UnitTests.dll

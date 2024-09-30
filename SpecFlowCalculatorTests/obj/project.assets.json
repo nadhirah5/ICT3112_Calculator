@@ -699,6 +699,8 @@
           "FluentAssertions": "7.0.0-alpha.4",
           "ICT3112_Calculator": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.11.1",
+          "NUnit": "4.2.2",
+          "NUnit3TestAdapter": "4.6.0",
           "Reqnroll": "2.1.0",
           "Reqnroll.NUnit": "2.1.0",
           "Reqnroll.Tools.MsBuild.Generation": "2.1.0"

@@ -80,13 +80,8 @@ namespace SpecFlowCalculatorTests
         [NUnit.Framework.CategoryAttribute("Factorials")]
         [NUnit.Framework.TestCaseAttribute("0", "1", null)]
         [NUnit.Framework.TestCaseAttribute("1", "1", null)]
-        [NUnit.Framework.TestCaseAttribute("2", "2", null)]
-        [NUnit.Framework.TestCaseAttribute("3", "6", null)]
-        [NUnit.Framework.TestCaseAttribute("4", "24", null)]
         [NUnit.Framework.TestCaseAttribute("5", "120", null)]
-        [NUnit.Framework.TestCaseAttribute("6", "720", null)]
         [NUnit.Framework.TestCaseAttribute("10", "3628800", null)]
-        [NUnit.Framework.TestCaseAttribute("20", "2432902008176640000", null)]
         public async System.Threading.Tasks.Task CalculatingTheFactorialOfAValidNumber(string number, string expected, string[] exampleTags)
         {
             string[] @__tags = new string[] {

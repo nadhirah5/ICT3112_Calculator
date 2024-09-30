@@ -113,6 +113,7 @@
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/SpecFlowCalculatorTests/obj/Debug/net6.0/SpecFlowCalculatorTests.AssemblyInfoInputs.cache
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/SpecFlowCalculatorTests/obj/Debug/net6.0/SpecFlowCalculatorTests.AssemblyInfo.cs
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/SpecFlowCalculatorTests/obj/Debug/net6.0/SpecFlowCalculatorTests.csproj.CoreCompileInputs.cache
+/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/SpecFlowCalculatorTests/obj/Debug/net6.0/SpecFlowCalculatorTests.sourcelink.json
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/SpecFlowCalculatorTests/obj/Debug/net6.0/SpecFlow.7D8D6ADE.Up2Date
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/SpecFlowCalculatorTests/obj/Debug/net6.0/SpecFlowCalculatorTests.dll
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/SpecFlowCalculatorTests/obj/Debug/net6.0/refint/SpecFlowCalculatorTests.dll

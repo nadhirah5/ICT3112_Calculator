@@ -21,5 +21,7 @@
     <PackageReference Include="Reqnroll" Version="2.1.0" />
     <PackageReference Include="Reqnroll.NUnit" Version="2.1.0" />
     <PackageReference Include="Reqnroll.Tools.MsBuild.Generation" Version="2.1.0" />
+    <PackageReference Include="NUnit" Version="4.2.2" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.6.0" />
   </ItemGroup>
 </Project>

@@ -96,6 +96,7 @@
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator/obj/Debug/net6.0/ICT3112_Calculator.AssemblyInfoInputs.cache
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator/obj/Debug/net6.0/ICT3112_Calculator.AssemblyInfo.cs
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator/obj/Debug/net6.0/ICT3112_Calculator.csproj.CoreCompileInputs.cache
+/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator/obj/Debug/net6.0/ICT3112_Calculator.sourcelink.json
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator/obj/Debug/net6.0/ICT3112_.E3608DDA.Up2Date
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator/obj/Debug/net6.0/ICT3112_Calculator.dll
 /Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator/obj/Debug/net6.0/refint/ICT3112_Calculator.dll
