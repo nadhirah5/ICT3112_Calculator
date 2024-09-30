@@ -1,0 +1,276 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/SpecFlowCalculatorTests/SpecFlowCalculatorTests.csproj": {}
+  },
+  "projects": {
+    "/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/ICT3112_Calculator.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/ICT3112_Calculator.UnitTests.csproj",
+        "projectName": "ICT3112_Calculator.UnitTests",
+        "projectPath": "/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/ICT3112_Calculator.UnitTests.csproj",
+        "packagesPath": "/Users/nadhirah/.nuget/packages/",
+        "outputPath": "/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nadhirah/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator/ICT3112_Calculator.csproj": {
+                "projectPath": "/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator/ICT3112_Calculator.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[7.0.0-alpha.4, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.11.1, )"
+            },
+            "Reqnroll": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Reqnroll.NUnit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Reqnroll.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator/ICT3112_Calculator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator/ICT3112_Calculator.csproj",
+        "projectName": "ICT3112_Calculator",
+        "projectPath": "/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator/ICT3112_Calculator.csproj",
+        "packagesPath": "/Users/nadhirah/.nuget/packages/",
+        "outputPath": "/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nadhirah/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[7.0.0-alpha.4, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.11.1, )"
+            },
+            "Reqnroll": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Reqnroll.NUnit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Reqnroll.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/SpecFlowCalculatorTests/SpecFlowCalculatorTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/SpecFlowCalculatorTests/SpecFlowCalculatorTests.csproj",
+        "projectName": "SpecFlowCalculatorTests",
+        "projectPath": "/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/SpecFlowCalculatorTests/SpecFlowCalculatorTests.csproj",
+        "packagesPath": "/Users/nadhirah/.nuget/packages/",
+        "outputPath": "/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/SpecFlowCalculatorTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nadhirah/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/ICT3112_Calculator.UnitTests.csproj": {
+                "projectPath": "/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator.UnitTests/ICT3112_Calculator.UnitTests.csproj"
+              },
+              "/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator/ICT3112_Calculator.csproj": {
+                "projectPath": "/Users/nadhirah/Desktop/3112_SVnV/ICT3112_Calculator/ICT3112_Calculator/ICT3112_Calculator.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[7.0.0-alpha.4, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.11.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "NUnit.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "Reqnroll": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Reqnroll.NUnit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Reqnroll.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
