@@ -40,7 +40,7 @@ namespace SpecFlowCalculatorTests.StepDefinitions
             Assert.That(_context.Result, Is.EqualTo(p0));
         }
 
-        [Then(@"the division result should be (.*)")]
+        [Then(@"theG division result should be (.*)")]
         public void ThenTheDivisionResultShouldBe(double p0)
         {
             Assert.That(_context.Result, Is.EqualTo(p0));
