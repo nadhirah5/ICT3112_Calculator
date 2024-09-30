@@ -16,7 +16,7 @@ jobs:
 
     env:
       Solution_Name: ICT3112_Calculator.sln
-      # Unit_Test_Project_Path: ICT3112_Calculator/ICT3112_Calculator.UnitTests/ICT3112_Calculator.UnitTests.csproj
+      Unit_Test_Project_Path: ICT3112_Calculator.UnitTests/ICT3112_Calculator.UnitTests.csproj
       SpecFlow_Test_Project_Path: SpecFlowCalculatorTests/SpecFlowCalculatorTests.csproj
 
     steps:
@@ -45,9 +45,9 @@ jobs:
     - name: Build solution
       run: dotnet build ${{ env.Solution_Name }} --configuration ${{ matrix.configuration }} --no-restore
 
-    # # Run unit tests (use full path and ensure correct directory)
-    # - name: Run unit tests
-    #   run: dotnet test ${{ env.Unit_Test_Project_Path }} --configuration ${{ matrix.configuration }} --verbosity normal
+    # Run unit tests (use full path and ensure correct directory)
+    - name: Run unit tests
+      run: dotnet test ${{ env.Unit_Test_Project_Path }} --configuration ${{ matrix.configuration }} --verbosity normal
 
     # Run SpecFlow tests
     - name: Run SpecFlow tests
